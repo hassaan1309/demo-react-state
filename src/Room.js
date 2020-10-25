@@ -54,7 +54,7 @@ function Room() {
      <br/>
      The current temperature is {Temperature} celcius.
      <br/>
-     <button onClick={() => setTemperature(++Temperature)}>+</button>
+     <button onClick={incTemperature}>+</button>
      <button onClick={decTemperature}>-</button>
     </div>
   );
